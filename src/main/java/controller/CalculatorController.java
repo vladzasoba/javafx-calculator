@@ -146,12 +146,14 @@ public class CalculatorController implements Initializable {
     public void addToMemory(ActionEvent actionEvent) {
         double operand = (textBox.getText().isEmpty()) ? 0 : Double.parseDouble(textBox.getText());
         calculatorService.setMemoryBuffer(calculatorService.getMemoryBuffer() + operand);
+        textBox.setText(calculatorService.getMemoryBuffer() + "");
     }
 
 
     public void subtractFromMemory(ActionEvent actionEvent) {
         double operand = (textBox.getText().isEmpty()) ? 0 : Double.parseDouble(textBox.getText());
         calculatorService.setMemoryBuffer(calculatorService.getMemoryBuffer() - operand);
+        textBox.setText(calculatorService.getMemoryBuffer() + "");
     }
 
     public void clearMemory(ActionEvent actionEvent) {

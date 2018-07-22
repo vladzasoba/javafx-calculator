@@ -49,3 +49,9 @@ ToggleGroup {
     -fx-border-width: 2px;
     -fx-min-height: 10px;
 }
+
+.digit {
+    -fx-background-color: #b9b9b9;
+    -fx-text-fill: #282828;
+    -fx-border-color: #686869;
+}

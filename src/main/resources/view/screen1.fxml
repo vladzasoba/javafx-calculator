@@ -25,19 +25,19 @@
         <GridPane>
             <!--DIGITS-->
                 <!--FIRST ROW-->
-            <Button GridPane.columnIndex="0" GridPane.rowIndex="0" text="7" onAction="#printSymbol"/>
-            <Button GridPane.columnIndex="1" GridPane.rowIndex="0" text="8" onAction="#printSymbol"/>
-            <Button GridPane.columnIndex="2" GridPane.rowIndex="0" text="9" onAction="#printSymbol"/>
+            <Button styleClass="digit" GridPane.columnIndex="0" GridPane.rowIndex="0" text="7" onAction="#printSymbol"/>
+            <Button styleClass="digit"  GridPane.columnIndex="1" GridPane.rowIndex="0" text="8" onAction="#printSymbol"/>
+            <Button styleClass="digit"  GridPane.columnIndex="2" GridPane.rowIndex="0" text="9" onAction="#printSymbol"/>
                 <!--SECOND ROW-->
-            <Button GridPane.columnIndex="0" GridPane.rowIndex="1" text="4" onAction="#printSymbol"/>
-            <Button GridPane.columnIndex="1" GridPane.rowIndex="1" text="5" onAction="#printSymbol"/>
-            <Button GridPane.columnIndex="2" GridPane.rowIndex="1" text="6" onAction="#printSymbol"/>
+            <Button styleClass="digit"  GridPane.columnIndex="0" GridPane.rowIndex="1" text="4" onAction="#printSymbol"/>
+            <Button styleClass="digit"  GridPane.columnIndex="1" GridPane.rowIndex="1" text="5" onAction="#printSymbol"/>
+            <Button styleClass="digit"  GridPane.columnIndex="2" GridPane.rowIndex="1" text="6" onAction="#printSymbol"/>
                 <!--THIRD ROW-->
-            <Button GridPane.columnIndex="0" GridPane.rowIndex="2" text="1" onAction="#printSymbol"/>
-            <Button GridPane.columnIndex="1" GridPane.rowIndex="2" text="2" onAction="#printSymbol"/>
-            <Button GridPane.columnIndex="2" GridPane.rowIndex="2" text="3" onAction="#printSymbol"/>
+            <Button styleClass="digit"  GridPane.columnIndex="0" GridPane.rowIndex="2" text="1" onAction="#printSymbol"/>
+            <Button styleClass="digit"  GridPane.columnIndex="1" GridPane.rowIndex="2" text="2" onAction="#printSymbol"/>
+            <Button styleClass="digit"  GridPane.columnIndex="2" GridPane.rowIndex="2" text="3" onAction="#printSymbol"/>
                 <!--FOURTH ROW-->
-            <Button GridPane.columnIndex="1" GridPane.rowIndex="3" text="0" onAction="#printSymbol"/>
+            <Button styleClass="digit"  GridPane.columnIndex="1" GridPane.rowIndex="3" text="0" onAction="#printSymbol"/>
             <Button GridPane.columnIndex="0" GridPane.rowIndex="3" text="." onAction="#printSymbol"/>
             <!--DIGITS END-->
 
