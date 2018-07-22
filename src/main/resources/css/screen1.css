@@ -1,0 +1,51 @@
+.root {
+    -fx-background-color: #79797A;
+    -fx-min-width: 200px;
+    -fx-min-height: 200px;
+}
+
+.text-box {
+    -fx-border-width: 200px;
+    -fx-min-width: 200px;
+    -fx-font-size: 16px;
+    -fx-margin: 20px;
+}
+
+TextField {
+    -fx-text-alignment: CENTER-RIGHT;
+    -fx-font-size: 16px;
+    -fx-background-color: #4b4b4b;
+    -fx-text-fill: #30b00f;
+    -fx-font-family: Consolas;
+    -fx-text-alignment: right;
+    -fx-font-weight: bold;
+}
+
+
+RadioButton {
+    -fx-font-family: Verdana;
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+}
+
+ToggleGroup {
+    -fx-border-width: 5px;
+}
+
+.button {
+    -fx-min-width: 54px;
+    -fx-min-height: 46px;
+    -fx-font-family: Verdana;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #686869;
+    -fx-background-color: #3E3E3D;
+}
+
+.angleUnit {
+    -fx-border-insets: 5px;
+    -fx-border-width: 2px;
+    -fx-min-height: 10px;
+}
